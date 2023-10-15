@@ -16,6 +16,9 @@
         "visual-testing",
         "percy"
     ],
+    "bin": {
+        "percy-pdf": "./cli.js"
+    },
     "author": "samirans89",
     "license": "Apache License 2.0",
     "devDependencies": {
@@ -32,6 +35,10 @@
         "fs": "0.0.1-security",
         "http-server": "^14.1.1",
         "js-yaml": "^4.1.0",
-        "pdfjs-dist": "2.4.456"
+        "pdfjs-dist": "2.4.456",
+        "date-fns": "^2.29.3",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.8",
+        "commander": "^9.4.0"
     }
 }
